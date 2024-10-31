@@ -1,6 +1,8 @@
 import { PropsWithChildren } from "react";
 import SideNav from "../ui/dashboard/sidenav";
 
+export const experimental_ppr = true;
+
 const DashboardLayout = ({ children }: PropsWithChildren) => {
   return (
     <div className="flex h-screen flex-col md:flex-row md:overflow-hidden">
